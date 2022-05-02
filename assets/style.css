@@ -10,12 +10,7 @@ body {
     justify-content: center;
     align-items: center;
   }
-  
-  .lead {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
   textarea {
     background: transparent;
     border: none;
@@ -34,7 +29,20 @@ body {
     border-bottom: 10px solid black;
   }
 
+  .container {
+    display:table;
+  }
   
+  .container .row {
+    display:table-row;
+   
+  }
+  
+  .container .row .col {
+    display:table-cell;
+    padding:5px;
+    border:1px solid #333;
+  }  
   .description {
     white-space: pre-wrap;
   }
