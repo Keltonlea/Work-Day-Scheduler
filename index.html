@@ -31,83 +31,92 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-   
-      <!-- Timeblocks go here -->
+    <div class="container" >
+    <!--Timeblocks go here-->
       
-
-<div class="container" >
-    <div class="row  time-block">
-        <div class="col my-col col-a1 hour" id="8"> 8am
-          <textarea
-            class="description">
+  
+    <div class="row my-row">
+        <div class="col my-col col-b1 hour">
+           9am 
+          <textarea class="col-sm-10 description" data-hour="9">
           </textarea> </div>
-        <button class="col my-col col-a3 saveBtn"> save </button>
+        <button class="col my-col col-b3 saveBtn" data-hour="9"> save </button>
     </div>
 
-    <div class="row my-row time-block">
-        <div class="col my-col col-a1 hour" id="9"> 9am 
-          <textarea class="description"></textarea>
+    <div class="row my-row" >
+        <div class="col my-col col-b1 hour">
+           10am
+          <textarea class="col-sm-10 description" data-hour="10">
+          </textarea> </div>
+        <button class="col my-col col-b3 saveBtn" data-hour="10"> save </button>
+    </div>
+
+    <div class="row my-row" >
+        <div class="col my-col col-b1 hour">
+           11am
+          <textarea class="col-sm-10 description" data-hour=11>
+          </textarea> </div>
+        <button class="col my-col col-b3 saveBtn" data-hour="11"> save </button>
+    </div>
+
+    <div class="row my-row" >
+        <div class="col my-col col-b1 hour">
+           12pm
+          <textarea class="col-sm-10 description" data-hour="12">
+          </textarea> </div>
+        <button class="col my-col col-b3 saveBtn" data-hour="12"> save </button>
+    </div>
+
+    <div class="row my-row" >
+        <div class="col my-col col-b1 hour">
+           1pm
+          <textarea class="col-sm-10 description" data-hour="13">
+          </textarea> </div>
+        <button class="col my-col col-b3 saveBtn" data-hour="13"> save </button>
+    </div>
+
+    <div class="row my-row">
+        <div class="col my-col col-a1 hour">
+           2pm
+          <textarea class="col-sm-10 description" data-hour="14">
+          </textarea> </div>
+        <button class="col my-col col-a3 saveBtn" data-hour="14"> save </button>
+    </div>
+
+    <div class="row my-row">
+        <div class="col my-col col-a1 hour">
+           3pm
+          <textarea class="col-sm-10 description" data-hour="15">
+          </textarea> </div>
+        <button class="col my-col col-a3 saveBtn" data-hour="15"> save </button>
+    </div>
+
+    <div class="row my-row">
+        <div class="col my-col col-a1 hour">
+           4pm
+          <textarea class="col-sm-10 description" data-hour="16">
+          </textarea> </div>
+        <button class="col my-col col-a3 saveBtn" data-hour="16"> save </button>
+    </div>
+
+    <div class="row my-row">
+        <div class="col my-col col-a1 hour">
+           5pm 
+          <textarea class="col-sm-10 description" data-hour="18">
+          </textarea></div>
+        <button class="col my-col col-a3 saveBtn" data-hour="17"> save </button>
+    </div>
+
+    <div class="row my-row">
+        <div class="col my-col col-a1 hour" id="18">
+           6pm 
+          <textarea class="col-sm-10 description" data-hour="18">
+          </textarea>
         </div>
-        <button class="col my-col col-a3 saveBtn"> save </button>
-    </div>
-
-    <div class="row my-row time-block" >
-        <div class="col my-col col-b1 hour" id="10"> 10am
-          <textarea class="description"></textarea> </div>
-        
-        <button class="col my-col col-b3 saveBtn"> save </button>
-    </div>
-    <div class="row my-row time-block" >
-        <div class="col my-col col-b1 hour" id="11"> 11am
-          <textarea class="description"></textarea> </div>
-        <button class="col my-col col-b3 saveBtn"> save </button>
-    </div>
-
-    <div class="row my-row time-block" >
-        <div class="col my-col col-b1 hour" id="12"> 12pm
-          <textarea class="description"></textarea> </div>
-        <button class="col my-col col-b3 saveBtn"> save </button>
-    </div>
-
-    <div class="row my-row time-block" >
-        <div class="col my-col col-b1 hour" id="13"> 1pm
-          <textarea class="description"></textarea> </div>
-        <button class="col my-col col-b3 saveBtn"> save </button>
-    </div>
-
-    <div class="row my-row time-block">
-        <div class="col my-col col-a1 hour" id="14"> 2pm
-          <textarea class="description"></textarea> </div>
-        <button class="col my-col col-a3 saveBtn"> save </button>
-    </div>
-
-    <div class="row my-row time-block">
-        <div class="col my-col col-a1 hour" id="15"> 3pm
-          <textarea class="description"></textarea> </div>
-        <button class="col my-col col-a3 saveBtn"> save </button>
-    </div>
-
-    <div class="row my-row time-block">
-        <div class="col my-col col-a1 hour" id="16"> 4pm
-          <textarea class="description"></textarea> </div>
-        <button class="col my-col col-a3 saveBtn"> save </button>
-    </div>
-
-    <div class="row my-row time-block">
-        <div class="col my-col col-a1 hour" id="17"> 5pm 
-          <textarea class="description"></textarea>
-        </div>
-        <button class="col my-col col-a3 saveBtn"> save </button>
-    </div>
-
-    <div class="row my-row time-block">
-        <div class="col my-col col-a1 hour" id="18"> 6pm 
-          <textarea class="description"></textarea>
-        </div>
-        <button class="col my-col col-a3 saveBtn"> save </button>
+        <button class="col my-col col-a3 saveBtn" data-hour="18"> save </button>
     </div>
 </div>
-    </div>
+    </div> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
