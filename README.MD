@@ -26,13 +26,13 @@ THEN the saved events persist
 ***
 
 ## Built With 
-*JavaScript,
-*Bootstrap,
-*Jquery
-*HTML
-*CSS
-*Moment.js
-*Google Fonts
+* JavaScript
+* Bootstrap
+* Jquery
+* HTML
+* CSS
+* Moment.js
+* Google Fonts
 
 ***
 ## SCREENSHOT
