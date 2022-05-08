@@ -61,6 +61,5 @@ $(textContent).each(function(){
 
 })
 
-
 init();
 colorCode();
