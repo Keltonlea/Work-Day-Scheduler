@@ -31,7 +31,7 @@ $(textContent).each(function() {
 
 
 // Save user input to local storage
-$(".saveBtn").on("click", function (event){
+$(".saveBtn").on("click", function (){
 
   
     let hourBlock = $(this).data("hour");
